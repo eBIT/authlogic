@@ -98,7 +98,7 @@ And if you want to automatically upgrade from *Sha512* to *SCrypt* as users logi
 
 ```ruby
 c.transition_from_crypto_providers = [Authlogic::CryptoProviders::Sha512]
-c.crypto_provider = Authlogic::CryptoProviders::SCrypt
+c.crypto_provider = Authlogic::CryptoProviders::BCrypt
 ```
 
 ## Helpful links
